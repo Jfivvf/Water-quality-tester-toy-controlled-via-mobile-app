@@ -1,0 +1,8 @@
+Flask
+psycopg2-binary
+bcrypt
+PyJWT
+smtplib
+email
+datetime
+random
