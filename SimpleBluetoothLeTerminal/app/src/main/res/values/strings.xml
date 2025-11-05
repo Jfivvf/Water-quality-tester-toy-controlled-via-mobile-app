@@ -1,0 +1,135 @@
+<resources>
+    <string name="app_name">AquaBuddy</string>
+    <string name="devices">Bluetooth LE Devices</string>
+
+    <string name="bluetooth_permission_title">Bluetooth permission</string>
+    <string name="bluetooth_permission_grant">Bluetooth permission is required by this App. Please grant in next dialog.</string>
+    <string name="bluetooth_permission_denied">Bluetooth permission was permanently denied. You have to enable permission \"%s\" in App settings.</string>
+
+    <string name="location_permission_title">Location permission</string>
+    <string name="location_permission_grant">This app does not use location information, but scanning for Bluetooth LE devices requires this permission. Please grant in next dialog.</string>
+    <string name="location_permission_denied">As location permission has not been granted, this app cannot scan for Bluetooth LE devices.</string>
+    <string name="help">Help</string>
+
+    <string name="pairing_request">PAIRING requested\n-> Perform pairing steps. Connect again</string>
+
+    <string-array name="roles_array_with_hint">
+        <item>Choose a role</item>
+        <item>child</item>
+        <item>parent</item>
+    </string-array>
+
+    <string name="profile_button">Open profile</string>
+
+    <string name="btn_forward">Forward</string>
+    <string name="btn_backward">Backward</string>
+    <string name="btn_left">Left</string>
+    <string name="btn_right">Right</string>
+    <string name="btn_stop">Stop</string>
+
+    <string name="btn_settings">Settings</string>
+    <string name="page_about_account">Your Account Info</string>
+    <string name="btn_logout">Log out</string>
+    <string name="btn_about_account">Account Info</string>
+
+    <string name="btn_login">Log in</string>
+    <string name="btn_registration">Registration</string>
+    <string name="space_email">Email</string>
+    <string name="btn_code_email">Send a verification code</string>
+    <string name="space_username_reg">Username</string>
+    <string name="space_username">Username or email</string>
+    <string name="space_password">Password</string>
+
+    <string name="space_for_code">Your verification code (6 char)</string>
+    <string name="btn_ok_code">OK</string>
+
+    <string name="location_hint"><b>Name</b></string>
+    <string name="tempr_hint"><b>Temperature:</b></string>
+    <string name="tds_hint"><b>Salinity(TDS):</b></string>
+    <string name="underscore_hint"><b>__</b></string>
+
+    <string name="account">Account Settings</string>
+    <string name="history">History of Measurements</string>
+    <string name="nomeas">No measurements yet</string>
+    <string name="change_language">Languages</string>
+
+    <string name="if_have_acc">Already have an account? Login</string>
+    <string name="if_not_have_acc">Do not have an account? Register</string>
+
+    <string name="temperature"><b>Temperature:</b></string>
+    <string name="temperature_format"><b>Temperature: %1$.1f °C</b></string>
+    <string name="measurement_title_format">%1$d. %2$s</string>
+
+    <string name="salinity_format"><b>Salinity: %1$.1f </b></string>
+    <string name="salinity"><b>Salinity:</b></string>
+    <string name="date"><b>Measured at:</b></string>
+    <string name="loc_name"><b>Location:</b></string>
+    <string name="locationl"><b>Location: %1$s</b></string>
+    <string name="measurement_info_with_coords">Date: %1$s\nLocation: %2$s\nLatitude: %3$.5f\nLongitude: %4$.5f\nTemperature: %5$.1f°C\nTDS: %6$.0f ppm</string>
+
+    <string name="resume"><b>Conclusion:</b></string>
+    <string name="settings">Settings</string>
+
+    <string name="lang_english">English</string>
+    <string name="lang_russian">Русский</string>
+    <string name="lang_german">Deutsch</string>
+    <string name="lang_spanish">Español</string>
+    <string name="lang_italian">Italiano</string>
+
+
+    <string name="default_username">user123</string>
+    <string name="hidden_password">••••••</string>
+    <string name="role">Role: </string>
+    <string name="created_example">Created: </string>
+
+
+    <string name="profile_photo">Profile photo</string>
+    <string name="change_photo">Change photo</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+
+    <string name="unamed"> unamed </string>
+    <string name="scan">SCAN</string>
+    <string name="stop">STOP</string>
+
+    <string name="details"> Details</string>
+
+    <string name="danger">⚠️The water is heavily polluted! Contact Rosprirodnadzor: 8 800 550 80 45</string>
+    <string name="good">What an excellent water!</string>
+    <string name="ok">The water is OK</string>
+    <string name="bad">Ah, poor fish.. The water is too bad.</string>
+    <string name="sea">It is sea water. </string>
+
+    <string name="measurement_info_format">
+        Date: %1$s\nLocation: %2$s\nTemperature: %3$.1f°C\nTDS: %4$.0f ppm
+    </string>
+    <string name="alert_exceeded_format">
+        ⚠️ Danger! Exceeded safe limit by %1$.0f ppm.\nCall the environmental service at 8-800-555-00-00.
+    </string>
+    <string name="calling_service">📞 Calling 8-800-555-00-00...</string>
+    <string name="export_data_format">
+        Measurement (%1$s)\nLocation: %2$s\nTemperature: %3$.1f°C\nTDS: %4$.0f ppm\n
+    </string>
+    <string name="export_success">Data exported to internal storage</string>
+    <string name="export_error">Error exporting data</string>
+
+    <string name="help_text">
+Welcome to the Water Quality Tester Toy app!\n
+\n
+1. Main Screen: Turn on Bluetooth to search for nearby devices and press the SCAN button. Connect to the JDY-33-BLE.\n
+\n
+2. Motor Control: Use the buttons to move the motor forward/backward/left/right and the "Data Collection" and "Save Data" buttons to save measurement data to your account.\n
+\n
+3. History: By pressing the "History" button, you can view previous measurements.\n
+\n
+4. Account: Here you can view and edit your user information. To change your profile picture, tap your profile picture or the "Change Photo" button. To change your username or password, tap the icon next to the information you would like to change.\n
+\n
+5. Change Language: Select the language for the app interface.\n
+\n
+If anything is unclear, please return to this section. If you have any questions or suggestions, you can contact fominauliana2009@yandex.ru by email.
+</string>
+
+
+
+
+</resources>

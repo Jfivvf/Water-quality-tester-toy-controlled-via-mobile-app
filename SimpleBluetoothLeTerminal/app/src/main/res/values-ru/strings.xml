@@ -1,0 +1,131 @@
+<resources>
+    <string name="app_name">AquaBuddy</string>
+    <string name="devices">Устройства Bluetooth LE</string>
+
+    <string name="bluetooth_permission_title">Разрешение Bluetooth</string>
+    <string name="bluetooth_permission_grant">Для этого приложения требуется разрешение Bluetooth. Пожалуйста, предоставьте его в следующем диалоговом окне.</string>
+    <string name="bluetooth_permission_denied">Разрешение Bluetooth было окончательно отклонено. Вам необходимо включить разрешение \"%s\" в настройках приложения.</string>
+
+    <string name="location_permission_title">Разрешение местоположения</string>
+    <string name="location_permission_grant">Это приложение не использует информацию о местоположении, но для сканирования устройств Bluetooth LE требуется это разрешение. Пожалуйста, предоставьте его в следующем диалоговом окне.</string>
+    <string name="location_permission_denied">Так как разрешение на местоположение не предоставлено, это приложение не может сканировать устройства Bluetooth LE.</string>
+    <string name="help">Помощь</string>
+    <string name="pairing_request">Запрос СВЯЗЫВАНИЯ\n-> Выполните шаги сопряжения. Подключитесь снова</string>
+
+    <string-array name="roles_array_with_hint">
+        <item>Выберите роль</item>
+        <item>ребенок</item>
+        <item>родитель</item>
+    </string-array>
+
+    <string name="profile_button">Открыть профиль</string>
+
+    <string name="btn_forward">Вперед</string>
+    <string name="btn_backward">Назад</string>
+    <string name="btn_left">Влево</string>
+    <string name="btn_right">Вправо</string>
+    <string name="btn_stop">Стоп</string>
+
+    <string name="btn_settings">Настройки</string>
+    <string name="page_about_account">Информация о вашем аккаунте</string>
+    <string name="btn_logout">Выйти</string>
+    <string name="btn_about_account">Информация об аккаунте</string>
+
+    <string name="btn_login">Войти</string>
+    <string name="btn_registration">Регистрация</string>
+    <string name="space_email">Email</string>
+    <string name="btn_code_email">Отправить код подтверждения</string>
+    <string name="space_username_reg">Имя пользователя</string>
+    <string name="space_username">Имя пользователя или email</string>
+    <string name="space_password">Пароль</string>
+
+    <string name="space_for_code">Ваш код подтверждения (6 символов)</string>
+    <string name="btn_ok_code">OK</string>
+
+    <string name="location_hint"><b>Название</b></string>
+    <string name="tempr_hint"><b>Температура:</b></string>
+    <string name="tds_hint"><b>Соленость (TDS):</b></string>
+    <string name="underscore_hint"><b>__</b></string>
+
+    <string name="account">Настройки аккаунта</string>
+    <string name="history">История измерений</string>
+    <string name="nomeas">Измерений пока нет</string>
+    <string name="change_language">Языки</string>
+
+    <string name="if_have_acc">Уже есть аккаунт? Войти</string>
+    <string name="if_not_have_acc">Нет аккаунта? Зарегистрироваться</string>
+
+    <string name="temperature"><b>Температура:</b></string>
+    <string name="temperature_format"><b>Температура: %1$.1f °C</b></string>
+    <string name="measurement_title_format">%1$d. %2$s</string>
+
+    <string name="salinity_format"><b>Соленость: %1$.1f </b></string>
+    <string name="salinity"><b>Соленость:</b></string>
+    <string name="date"><b>Измерено:</b></string>
+    <string name="loc_name"><b>Местоположение:</b></string>
+    <string name="locationl"><b>Местоположение: %1$s</b></string>
+    <string name="measurement_info_with_coords">Дата: %1$s\nМестоположение: %2$s\nШирота: %3$.5f\nДолгота: %4$.5f\nТемпература: %5$.1f°C\nСоленость: %6$.0f ppm</string>
+    <string name="resume"><b>Заключение:</b></string>
+    <string name="settings">Настройки</string>
+
+    <string name="lang_english">English</string>
+    <string name="lang_russian">Русский</string>
+    <string name="lang_german">Deutsch</string>
+    <string name="lang_spanish">Español</string>
+    <string name="lang_italian">Italiano</string>
+
+    <string name="username">Имя Пользователя </string>
+    <string name="password">Пароль </string>
+
+
+    <string name="default_username">user123</string>
+    <string name="hidden_password">••••••</string>
+    <string name="role">Роль: </string>
+    <string name="created_example">Создан: </string>
+
+    <string name="profile_photo">Фото профиля</string>
+    <string name="change_photo">Изменить фото</string>
+    <string name="details">детали </string>
+
+    <string name="danger">⚠️Вода сильно загрязнена! Свяжитесь с Росприроднадзором: 8 800 550 80 45</string>
+    <string name="good">Какая отличная вода!</string>
+    <string name="ok">Вода в порядке</string>
+    <string name="bad">Ах, бедная рыба.. Вода слишком плохая.</string>
+    <string name="sea">Это морская вода.</string>
+
+    <string name="measurement_info_format">
+    Дата: %1$s\nМестоположение: %2$s\nТемпература: %3$.1f°C\nTDS: %4$.0f ppm
+</string>
+    <string name="alert_exceeded_format">
+    ⚠️ Опасность! Превышение безопасного предела на %1$.0f ppm.\nПозвоните в экологическую службу по номеру 8-800-555-00-00.
+</string>
+    <string name="calling_service">📞 Звонок 8-800-555-00-00...</string>
+    <string name="export_data_format">
+    Измерение (%1$s)\nМестоположение: %2$s\nТемпература: %3$.1f°C\nTDS: %4$.0f ppm\n
+</string>
+    <string name="export_success">Данные экспортированы во внутреннее хранилище</string>
+    <string name="export_error">Ошибка экспорта данных</string>
+
+    <string name="unamed"> unamed </string>
+    <string name="scan">SCAN</string>
+    <string name="stop">STOP</string>
+
+    <string name="help_text">
+Добро пожаловать в приложение AquaByddy!\n
+\n
+1. Главный экран: Включите Bluetooth для поиска устройств поблизости и нажмите кнопку «СКАНИРОВАНИЕ». Подключитесь к JDY-33-BLE.\n
+\n
+2. Управление мотором: Используйте кнопки для вращения мотора вперёд/назад/влево/вправо, а также кнопки «Сбор данных» и «Сохранить данные» для сохранения данных измерений в вашей учётной записи.\n
+\n
+3. История: Нажав кнопку «История», вы можете просмотреть предыдущие измерения.\n
+\n
+4. Учётная запись: Здесь вы можете просматривать и редактировать информацию о себе. Чтобы изменить изображение профиля, нажмите на изображение профиля или кнопку «Изменить фото». Чтобы изменить имя пользователя или пароль, нажмите на значок рядом с информацией, которую вы хотите изменить.\n
+\n
+5. Изменить язык: Выберите язык интерфейса приложения.\n
+\n
+Если что-то непонятно, вернитесь к этому разделу.\n
+Если у Вас возникнут какие-либо вопросы или пожелания, Вы можете обратиться на почту fominauliana2009@yandex.ru.
+</string>
+
+
+</resources>

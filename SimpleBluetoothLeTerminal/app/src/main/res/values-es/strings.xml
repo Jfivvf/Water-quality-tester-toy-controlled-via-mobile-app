@@ -1,0 +1,132 @@
+<resources>
+    <string name="app_name">AquaBuddy</string>
+    <string name="devices">Dispositivos Bluetooth LE</string>
+
+    <string name="bluetooth_permission_title">Permiso de Bluetooth</string>
+    <string name="bluetooth_permission_grant">Esta aplicación requiere el permiso de Bluetooth. Por favor, concédalo en el siguiente diálogo.</string>
+    <string name="bluetooth_permission_denied">El permiso de Bluetooth fue denegado permanentemente. Debe habilitar el permiso \"%s\" en la configuración de la aplicación.</string>
+
+    <string name="location_permission_title">Permiso de ubicación</string>
+    <string name="location_permission_grant">Esta aplicación no utiliza información de ubicación, pero escanear dispositivos Bluetooth LE requiere este permiso. Por favor, concédalo en el siguiente diálogo.</string>
+    <string name="location_permission_denied">Como no se ha concedido el permiso de ubicación, esta aplicación no puede escanear dispositivos Bluetooth LE.</string>
+    <string name="help">Ayuda</string>
+
+    <string name="pairing_request">Se solicitó EMPAREJAMIENTO\n-> Realice los pasos de emparejamiento. Conecte nuevamente</string>
+
+    <string-array name="roles_array_with_hint">
+        <item>Elegir un rol</item>
+        <item>niño</item>
+        <item>padre</item>
+    </string-array>
+
+    <string name="profile_button">Abrir perfil</string>
+
+    <string name="btn_forward">Adelante</string>
+    <string name="btn_backward">Atrás</string>
+    <string name="btn_left">Izquierda</string>
+    <string name="btn_right">Derecha</string>
+    <string name="btn_stop">Detener</string>
+
+    <string name="btn_settings">Configuración</string>
+    <string name="page_about_account">Su información de cuenta</string>
+    <string name="btn_logout">Cerrar sesión</string>
+    <string name="btn_about_account">Información de cuenta</string>
+
+    <string name="btn_login">Iniciar sesión</string>
+    <string name="btn_registration">Registro</string>
+    <string name="space_email">Correo electrónico</string>
+    <string name="btn_code_email">Enviar código de verificación</string>
+    <string name="space_username_reg">Nombre de usuario</string>
+    <string name="space_username">Nombre de usuario o correo electrónico</string>
+    <string name="space_password">Contraseña</string>
+
+    <string name="space_for_code">Su código de verificación (6 caracteres)</string>
+    <string name="btn_ok_code">OK</string>
+
+    <string name="location_hint"><b>Nombre</b></string>
+    <string name="tempr_hint"><b>Temperatura:</b></string>
+    <string name="tds_hint"><b>Salinidad (TDS):</b></string>
+    <string name="underscore_hint"><b>__</b></string>
+
+    <string name="account">Configuración de cuenta</string>
+    <string name="history">Historial de mediciones</string>
+    <string name="nomeas">Aún no hay mediciones</string>
+    <string name="change_language">Idiomas</string>
+
+    <string name="if_have_acc">¿Ya tiene una cuenta? Iniciar sesión</string>
+    <string name="if_not_have_acc">¿No tiene una cuenta? Registrarse</string>
+
+    <string name="temperature"><b>Temperatura:</b></string>
+    <string name="temperature_format"><b>Temperatura: %1$.1f °C</b></string>
+    <string name="measurement_title_format">%1$d. %2$s</string>
+
+    <string name="salinity_format"><b>Salinidad: %1$.1f </b></string>
+    <string name="salinity"><b>Salinidad:</b></string>
+    <string name="date"><b>Medido el:</b></string>
+    <string name="loc_name"><b>Ubicación:</b></string>
+    <string name="locationl"><b>Ubicación: %1$s</b></string>
+    <string name="measurement_info_with_coords">Fecha: %1$s\nUbicación: %2$s\nLatitud: %3$.5f\nLongitud: %4$.5f\nTemperatura: %5$.1f°C\nTDS: %6$.0f ppm</string>
+    <string name="resume"><b>Conclusión:</b></string>
+    <string name="settings">Configuración</string>
+
+    <string name="lang_english">English</string>
+    <string name="lang_russian">Русский</string>
+    <string name="lang_german">Deutsch</string>
+    <string name="lang_spanish">Español</string>
+    <string name="lang_italian">Italiano</string>
+
+    <string name="username">Nombre de usuario </string>
+    <string name="password">contraseña </string>
+
+
+    <string name="default_username">user123</string>
+    <string name="hidden_password">••••••</string>
+    <string name="role">Rol: </string>
+    <string name="created_example">Creado: </string>
+
+    <string name="profile_photo">Foto de perfil</string>
+    <string name="change_photo">Cambiar foto</string>
+
+
+    <string name="details"> </string>
+
+    <string name="danger">⚠️¡El agua está muy contaminada! Contacte a Rosprirodnadzor: 8 800 550 80 45</string>
+    <string name="good">¡Qué agua tan excelente!</string>
+    <string name="ok">El agua está bien</string>
+    <string name="bad">Ah, pobre pez.. El agua está muy mala.</string>
+    <string name="sea">Es agua de mar.</string>
+
+    <string name="measurement_info_format">
+    Fecha: %1$s\nUbicación: %2$s\nTemperatura: %3$.1f°C\nTDS: %4$.0f ppm
+</string>
+    <string name="alert_exceeded_format">
+    ⚠️ ¡Peligro! Límite seguro excedido por %1$.0f ppm.\nLlame al servicio ambiental al 8-800-555-00-00.
+</string>
+    <string name="calling_service">📞 Llamando al 8-800-555-00-00...</string>
+    <string name="export_data_format">
+    Medición (%1$s)\nUbicación: %2$s\nTemperatura: %3$.1f°C\nTDS: %4$.0f ppm\n
+</string>
+    <string name="export_success">Datos exportados al almacenamiento interno</string>
+    <string name="export_error">Error al exportar datos</string>
+    <string name="unamed"> unamed </string>
+    <string name="scan">SCAN</string>
+    <string name="stop">STOP</string>
+
+    <string name="help_text">
+¡Bienvenido a la aplicación AquaByddy!\n
+\n
+1. Pantalla principal: Enciende el Bluetooth para buscar dispositivos cercanos y pulsa el botón "ESCANEAR". Conéctate al JDY-33-BLE.\n
+\n
+2. Control del motor: Usa los botones para mover el motor adelante/atrás/izquierda/derecha, y los botones "Recopilar datos" y "Guardar datos" para guardar las mediciones en tu cuenta.\n
+\n
+3. Historial: Pulsando el botón "Historial" puedes ver mediciones anteriores.\n
+\n
+4. Cuenta: Aquí puedes ver y editar tu información de usuario. Para cambiar la foto de perfil, pulsa sobre la foto o el botón "Cambiar foto". Para cambiar el nombre de usuario o la contraseña, pulsa el icono junto a la información que deseas modificar.\n
+\n
+5. Cambiar idioma: Selecciona el idioma de la interfaz de la aplicación.\n
+\n
+If anything is unclear, please return to this section. If you have any questions or suggestions, you can contact fominauliana2009 by email.
+</string>
+
+
+</resources>

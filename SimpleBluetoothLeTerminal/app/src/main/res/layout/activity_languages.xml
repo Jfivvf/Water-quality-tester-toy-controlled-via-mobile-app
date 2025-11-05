@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@drawable/loginregscreen"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/btnEnglish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lang_english" 
+        android:backgroundTint="@color/login"/>
+
+    <Button
+        android:id="@+id/btnRussian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lang_russian"
+        android:backgroundTint="@color/login" />
+
+    <Button
+        android:id="@+id/btnGerman"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lang_german" 
+        android:backgroundTint="@color/login"/>
+
+    <Button
+        android:id="@+id/btnSpanish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lang_spanish" 
+        android:backgroundTint="@color/login"/>
+
+    <Button
+        android:id="@+id/btnItalian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lang_italian" 
+        android:backgroundTint="@color/login"/>
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1D2C66</color>
+    <color name="colorPrimaryDark">#bf360c</color>
+    <color name="colorAccent">#ff6e40</color>
+
+    <color name="colorRecieveText">#00FF00</color>
+    <color name="colorSendText">#82CAFF</color>
+    <color name="colorStatusText">#FFDB58</color>
+
+    <color name="joystick_forward">#1D2C66</color>
+    <color name="joystick_backward">#1D2C66</color>
+    <color name="joystick_left">#1D2C66</color>
+    <color name="joystick_right">#1D2C66</color>
+
+    <color name="collect_data_bt">#1D2C66</color>
+    <color name="save_data_bt">#1D2C66</color>
+
+    <color name="dark_blue_cs">#1D2C66</color>
+
+    <color name="white">#316375</color>
+    <color name="blue">#C3DEF2</color>
+    <color name="gray">#808080</color>
+    <color name="black">#000000</color>
+
+    <color name="settings_bar">#263578</color>
+
+    <color name="login">#2D428E</color>
+
+</resources>

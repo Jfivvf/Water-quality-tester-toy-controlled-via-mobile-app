@@ -1,0 +1,53 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/darker2"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    
+    <androidx.appcompat.widget.Toolbar
+    android:id="@+id/toolbarSettings"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/settings_bar"
+    app:title="@string/settings"
+    app:titleTextColor="@android:color/white"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    app:theme="@style/ToolbarTheme"/>
+
+    <Button
+        android:id="@+id/btn_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/account"
+        android:backgroundTint="@color/joystick_backward" />
+
+    <Button
+        android:id="@+id/btn_history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/history"
+        android:backgroundTint="@color/joystick_backward" />
+
+    <Button
+        android:id="@+id/btn_language"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/change_language"
+        android:backgroundTint="@color/joystick_backward" />
+
+    <Button
+        android:id="@+id/btn_help"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/help"
+        android:backgroundTint="@color/joystick_backward" />
+
+
+</LinearLayout>

@@ -1,0 +1,174 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/darker"
+    android:orientation="vertical">
+
+    <!-- экран приёма -->
+    <TextView
+        android:id="@+id/receive_text"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:freezesText="true"
+        android:gravity="bottom"
+        android:scrollbars="vertical"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <!-- разделительная линия -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="?android:attr/listDivider" />
+
+    <!-- строка ввода + кнопка отправки -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/send_text"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:inputType="text|textNoSuggestions"
+            android:singleLine="true" />
+
+        <ImageButton
+            android:id="@+id/send_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_send_white_24dp" />
+    </LinearLayout>
+
+    <!-- НИЖНИЙ БЛОК: слева джойстик, справа панель данных -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <!-- Джойстик слева -->
+        <LinearLayout
+            android:id="@+id/joystick_layout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/btn_forward"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_forward"
+                android:backgroundTint="@color/joystick_forward" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/btn_left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btn_left"
+                    android:backgroundTint="@color/joystick_left" />
+
+                <Space
+                    android:layout_width="32dp"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/btn_right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btn_right"
+                    android:backgroundTint="@color/joystick_right" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_backward"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_backward"
+                android:backgroundTint="@color/joystick_backward" />
+
+            <Button
+                android:id="@+id/btn_stop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_stop"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="@android:color/holo_red_light"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <!-- Панель справа -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <EditText
+                android:id="@+id/et_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/location_hint"
+                android:inputType="textCapSentences"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tempr_hint"
+                android:paddingTop="8dp"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/tv_temp_value"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/underscore_hint"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tds_hint"
+                android:paddingTop="8dp"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/tv_salinity_value"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/underscore_hint"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btn_collect"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Collect data"
+                android:layout_marginTop="12dp"
+                android:backgroundTint="@color/collect_data_bt" />
+
+            <Button
+                android:id="@+id/btn_save"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Save data"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="@color/save_data_bt" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,131 @@
+<resources>
+    <string name="app_name">AquaBuddy</string>
+    <string name="devices">Bluetooth LE Geräte</string>
+
+    <string name="bluetooth_permission_title">Bluetooth-Berechtigung</string>
+    <string name="bluetooth_permission_grant">Diese App benötigt die Bluetooth-Berechtigung. Bitte gewähren Sie sie im nächsten Dialog.</string>
+    <string name="bluetooth_permission_denied">Die Bluetooth-Berechtigung wurde dauerhaft verweigert. Sie müssen die Berechtigung \"%s\" in den App-Einstellungen aktivieren.</string>
+
+    <string name="location_permission_title">Standortberechtigung</string>
+    <string name="location_permission_grant">Diese App verwendet keine Standortinformationen, aber das Scannen nach Bluetooth LE Geräten erfordert diese Berechtigung. Bitte gewähren Sie sie im nächsten Dialog.</string>
+    <string name="location_permission_denied">Da die Standortberechtigung nicht erteilt wurde, kann diese App nicht nach Bluetooth LE Geräten scannen.</string>
+    <string name="help">Helfen</string>
+
+    <string name="pairing_request">PAARUNG angefordert\n-> Führen Sie die Paarungsschritte durch. Verbinden Sie sich erneut</string>
+
+    <string-array name="roles_array_with_hint">
+        <item>Rolle auswählen</item>
+        <item>Kind</item>
+        <item>Elternteil</item>
+    </string-array>
+
+    <string name="profile_button">Profil öffnen</string>
+
+    <string name="btn_forward">Vorwärts</string>
+    <string name="btn_backward">Rückwärts</string>
+    <string name="btn_left">Links</string>
+    <string name="btn_right">Rechts</string>
+    <string name="btn_stop">Stopp</string>
+
+    <string name="btn_settings">Einstellungen</string>
+    <string name="page_about_account">Ihre Kontoinformationen</string>
+    <string name="btn_logout">Abmelden</string>
+    <string name="btn_about_account">Kontoinfo</string>
+
+    <string name="btn_login">Anmelden</string>
+    <string name="btn_registration">Registrierung</string>
+    <string name="space_email">E-Mail</string>
+    <string name="btn_code_email">Bestätigungscode senden</string>
+    <string name="space_username_reg">Benutzername</string>
+    <string name="space_username">Benutzername oder E-Mail</string>
+    <string name="space_password">Passwort</string>
+
+    <string name="space_for_code">Ihr Bestätigungscode (6 Zeichen)</string>
+    <string name="btn_ok_code">OK</string>
+
+    <string name="location_hint"><b>Name</b></string>
+    <string name="tempr_hint"><b>Temperatur:</b></string>
+    <string name="tds_hint"><b>Salzgehalt (TDS):</b></string>
+    <string name="underscore_hint"><b>__</b></string>
+
+    <string name="account">Kontoeinstellungen</string>
+    <string name="history">Messverlauf</string>
+    <string name="nomeas">Noch keine Messungen</string>
+    <string name="change_language">Sprachen</string>
+
+    <string name="if_have_acc">Bereits ein Konto? Anmelden</string>
+    <string name="if_not_have_acc">Noch kein Konto? Registrieren</string>
+
+    <string name="temperature"><b>Temperatur:</b></string>
+    <string name="temperature_format"><b>Temperatur: %1$.1f °C</b></string>
+    <string name="measurement_title_format">%1$d. %2$s</string>
+
+    <string name="salinity_format"><b>Salzgehalt: %1$.1f </b></string>
+    <string name="salinity"><b>Salzgehalt:</b></string>
+    <string name="date"><b>Gemessen am:</b></string>
+    <string name="loc_name"><b>Ort:</b></string>
+    <string name="locationl"><b>Ort: %1$s</b></string>
+    <string name="resume"><b>Fazit:</b></string>
+    <string name="settings">Einstellungen</string>
+
+    <string name="lang_english">English</string>
+    <string name="lang_russian">Русский</string>
+    <string name="lang_german">Deutsch</string>
+    <string name="lang_spanish">Español</string>
+    <string name="lang_italian">Italiano</string>
+
+    <string name="username">Benutzername </string>
+    <string name="password">Passwort </string>
+
+
+    <string name="default_username">user123</string>
+    <string name="hidden_password">••••••</string>
+    <string name="role">Rolle: </string>
+    <string name="created_example">Erstellt: </string>
+    <string name="measurement_info_with_coords">Datum: %1$s\nOrt: %2$s\nBreitengrad: %3$.5f\nLängengrad: %4$.5f\nTemperatur: %5$.1f°C\nTDS: %6$.0f ppm</string>
+    <string name="profile_photo">Profilfoto</string>
+    <string name="change_photo">Foto ändern</string>
+    <string name="unamed"> unamed </string>
+    <string name="scan">SCAN</string>
+    <string name="stop">STOP</string>
+
+    <string name="help_text">
+Willkommen in der AquaByddy-App!\n
+\n
+1. Hauptbildschirm: Schalte Bluetooth ein, um nach Geräten in der Nähe zu suchen, und drücke die Taste "SCAN". Verbinde dich mit dem JDY-33-BLE.\n
+\n
+2. Motorsteuerung: Verwende die Tasten, um den Motor vorwärts/rückwärts/links/rechts zu bewegen, sowie die Tasten "Daten sammeln" und "Daten speichern", um Messdaten in deinem Konto zu speichern.\n
+\n
+3. Verlauf: Durch Drücken der Schaltfläche "Verlauf" kannst du vorherige Messungen einsehen.\n
+\n
+4. Konto: Hier kannst du deine Benutzerdaten anzeigen und bearbeiten. Um das Profilbild zu ändern, tippe auf das Bild oder auf die Schaltfläche "Foto ändern". Um Benutzernamen oder Passwort zu ändern, tippe auf das Symbol neben der jeweiligen Information.\n
+\n
+5. Sprache ändern: Wähle die Sprache der App-Oberfläche.\n
+\n
+If anything is unclear, please return to this section. If you have any questions or suggestions, you can contact fominauliana2009 by email.
+</string>
+
+
+    <string name="details"> </string>
+
+    <string name="danger">⚠️Das Wasser ist stark verschmutzt! Kontaktieren Sie Rosprirodnadzor: 8 800 550 80 45</string>
+    <string name="good">Was für ein ausgezeichnetes Wasser!</string>
+    <string name="ok">Das Wasser ist in Ordnung</string>
+    <string name="bad">Ah, armer Fisch.. Das Wasser ist zu schlecht.</string>
+    <string name="sea">Es ist Meerwasser.</string>
+
+    <string name="measurement_info_format">
+    Datum: %1$s\nOrt: %2$s\nTemperatur: %3$.1f°C\nTDS: %4$.0f ppm
+</string>
+    <string name="alert_exceeded_format">
+    ⚠️ Gefahr! Sicherheitsgrenze um %1$.0f ppm überschritten.\nRufen Sie den Umweltdienst unter 8-800-555-00-00 an.
+</string>
+    <string name="calling_service">📞 Rufe 8-800-555-00-00 an...</string>
+    <string name="export_data_format">
+    Messung (%1$s)\nOrt: %2$s\nTemperatur: %3$.1f°C\nTDS: %4$.0f ppm\n
+</string>
+    <string name="export_success">Daten in internen Speicher exportiert</string>
+    <string name="export_error">Fehler beim Exportieren der Daten</string>
+
+
+</resources>
